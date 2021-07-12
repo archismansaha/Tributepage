@@ -1,0 +1,54 @@
+*{
+    background-color: black;
+    box-sizing: border-box;
+    color:white;
+}
+#title{
+    text-align: center; 
+}
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+#img-div
+{   text-align: center;
+    box-shadow: 0 4px 18px 0 rgb(230, 178, 178), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:10px ;
+
+}
+
+#img-caption{
+  padding-bottom: 20px;  
+  border-radius: 10px;
+}
+#tribute-info{
+    width: 100%;
+    font-size: 18px;
+    line-height: 2rem;
+    position: relative;
+    left: 0%;
+    font-family:'Courier New', Courier, monospace;
+    }
+
+strong{
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    text-align: center;
+}
+ 
+              @media (max-width: 460px) {
+                h1 {
+                  font-size: 3.5rem;
+                  line-height: 1.2;
+                }
+                #main {
+                    margin: 0;
+                  }
+                  #img-caption {
+                    font-size: 1.4rem;
+                  }
+              }
+                           
